@@ -84,3 +84,6 @@ Linux3.12.15 сохраняю. Фактические CI outcomes описыва
 [Actions](https://docs.github.com/en/actions),[Git](https://git-scm.com/docs).
 Telemetry я отключил через собственный local instance; DAGSTER_HOME/Cloud profile
 не подхватываю. Отдельный Dagster webserver package не устанавливал, paid services нет.
+
+В scripts/ci.py я использую stdlib subprocess.check=True для fail-fast во всех ОС;
+workflow вызывает один Python процесс, не полагаясь на native-command semantics PowerShell.
