@@ -1,0 +1,6 @@
+[project]
+name = "dagster-delivery-assets"
+version = "0.1.0"
+description = "Учебная витрина доставок с Dagster assets и blocking checks"
+requires-python = ">=3.12,<3.13"
+dependencies = ["dagster==1.13.27"]

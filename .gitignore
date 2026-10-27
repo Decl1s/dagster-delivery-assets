@@ -1,0 +1,11 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+workspace/
+artifacts/
+.env
+*.sqlite*
+*.db
+*.log
+/AGENTS.md
